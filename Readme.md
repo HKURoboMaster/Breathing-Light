@@ -1,7 +1,7 @@
 # Assignment III for Automation
 ## Breathing light
 What you are asked to make is a breathing light.
-![image](https://github.com/EE-LiuYunhao/HKURoboMasterTraining/blob/lead_Liu_yuchen/3_Breathing_light/light.gif)
+![image](https://github.com/HKURoboMaster/Breathing-Light/blob/master/light.gif)
 
 You may implement the tasks below one by one, but you could just record your work that has the most complete function that you can achieve!
 (Only fulfill the first task is good enough)
