@@ -7,12 +7,20 @@ You should implement the tasks below one by one, and submit the change that achi
 (Only fulfill the first task is good enough)
 1. Use a switch(_output 0 when closed, 1 when open!!!!!_) to control the on/off of the light
 
-(You should find the label of the switch and the LED yourself. If you cannot find it, you can ask me for help. Apologies that some materials are not in English.)
+  (About where you can find the labels:
+
+  - The two pdf files and also the on the developing board.
+
+  You should find the label of the switch and the LED yourself. If you cannot find them, you can ask me for help. Apologies that some materials are not in Chinese.)
+
 2. Make the light that will be connected to `PB11` to breath periodically
+
+   （The mechanism of breathing light is change the pulse of PWM periodically.）
+
 3. Make the period to be 2s (1s to brighten and 1s to darken)
 ## How to hand in your assignment?
-- ## 1. Please create a branch under this repository named after you storing your project code.
-- ## 2. Please take a short video you demonstrating the function of your model. Upload you video [here](https://connecthkuhk.sharepoint.com/sites/hkurobomaster2/Shared%20Documents/Training%20-%20Software). The video should also name after you.
+- ### 1. Please create a branch under this repository named after you storing your project code.
+- ### 2. Please take a short video of you demonstrating the function of your model. Upload you video [here](https://connecthkuhk.sharepoint.com/sites/hkurobomaster2/Shared%20Documents/Training%20-%20Software). The video should also name after you.
 ### Some hints to help you:
 1. use `HAL_Delay(time)` to keep the existing state of the developing board for `time`μs
 2. There is no need to create any interrupt, just add your code in the while loop inside `main()`
