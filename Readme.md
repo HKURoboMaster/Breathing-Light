@@ -24,8 +24,10 @@ You should implement the tasks below one by one, and submit the change that achi
 - ### 2. Please take a short video of you demonstrating the function of your model. Upload you video [here](https://connecthkuhk.sharepoint.com/sites/hkurobomaster2/Shared%20Documents/Training%20-%20Software). The video should also name after you.
 ### Some hints to help you:
 1. use `HAL_Delay(time)` to keep the existing state of the developing board for `time`μs
-2. Use ` HAL_GPIO_ReadPin(GPIO_port, GPIO_PIN_id) ` to read the pin.
-3. There is no need to create any interrupt, just add your code in the while loop inside `main()`
-4. All the techniques you need is taught in the training, so those who didn't come please refer to the slide and video.
-5. You will never know what problems you will encounter if you don't practice those theories by yourself!
-6. Ask google or me if there's any uncertainty, my email's u35lyc@connect.hku.hk
+2. HAL_TIM_PWM_Start(&htim8, TIM_CHANNEL_4);
+3. Do not mistake the concept of period of breathing light and period of PWM.
+4. Use ` HAL_GPIO_ReadPin(GPIO_port, GPIO_PIN_id) ` to read the pin.
+5. There is no need to create any interrupt, just add your code in the while loop inside `main()`
+6. All the techniques you need is taught in the training, so those who didn't come please refer to the slide and video.
+7. You will never know what problems you will encounter if you don't practice those theories by yourself!
+8. Ask google or me if there's any uncertainty, my email's u35lyc@connect.hku.hk
