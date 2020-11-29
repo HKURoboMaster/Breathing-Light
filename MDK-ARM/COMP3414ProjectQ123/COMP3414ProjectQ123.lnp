@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"comp3414projectq123\startup_stm32f103xb.o"
+"comp3414projectq123\main.o"
+"comp3414projectq123\stm32f1xx_it.o"
+"comp3414projectq123\stm32f1xx_hal_msp.o"
+"comp3414projectq123\stm32f1xx_hal_gpio_ex.o"
+"comp3414projectq123\stm32f1xx_hal_tim.o"
+"comp3414projectq123\stm32f1xx_hal_tim_ex.o"
+"comp3414projectq123\stm32f1xx_hal.o"
+"comp3414projectq123\stm32f1xx_hal_rcc.o"
+"comp3414projectq123\stm32f1xx_hal_rcc_ex.o"
+"comp3414projectq123\stm32f1xx_hal_gpio.o"
+"comp3414projectq123\stm32f1xx_hal_dma.o"
+"comp3414projectq123\stm32f1xx_hal_cortex.o"
+"comp3414projectq123\stm32f1xx_hal_pwr.o"
+"comp3414projectq123\stm32f1xx_hal_flash.o"
+"comp3414projectq123\stm32f1xx_hal_flash_ex.o"
+"comp3414projectq123\stm32f1xx_hal_exti.o"
+"comp3414projectq123\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "COMP3414ProjectQ123\COMP3414ProjectQ123.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "COMP3414ProjectQ123.map" -o COMP3414ProjectQ123\COMP3414ProjectQ123.axf
