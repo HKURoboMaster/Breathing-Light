@@ -100,7 +100,8 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-    if (HAL_GPIO_ReadPin(Switch_GPIO_Port, Switch_Pin) == GPIO_PIN_RESET)
+    /*Task1*/
+    if (HAL_GPIO_ReadPin(Switch_GPIO_Port, Switch_Pin) == 1)
     {
       HAL_GPIO_WritePin(Led1_GPIO_Port, Led1_Pin, GPIO_PIN_RESET);
     }
@@ -121,7 +122,6 @@ int main(void)
       TIM2->CCR4 = pulse;
       HAL_Delay(2500);
     }
-
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
