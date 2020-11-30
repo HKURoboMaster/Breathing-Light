@@ -101,11 +101,11 @@ int main(void)
   while (1)
   {
     
-	if(HAL_GPIO_ReadPin(Switch_GPIO_Port, Switch_Pin)==GPIO_PIN_RESET){
-			HAL_GPIO_WritePin(Led1_GPIO_Port, Led1_Pin, GPIO_PIN_RESET);
+	if(HAL_GPIO_ReadPin(Switch_GPIO_Port, Switch_Pin)==1){
+			HAL_GPIO_WritePin(Led1_GPIO_Port, Led1_Pin, GPIO_PIN_SET);
 		}
 		else{
-			HAL_GPIO_WritePin(Led1_GPIO_Port, Led1_Pin, GPIO_PIN_SET);
+			HAL_GPIO_WritePin(Led1_GPIO_Port, Led1_Pin, GPIO_PIN_RESET);
 		}
 
 		/*Task2&3*/
