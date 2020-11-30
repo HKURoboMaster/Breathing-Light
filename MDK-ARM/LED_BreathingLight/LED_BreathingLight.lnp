@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"led_breathinglight\startup_stm32f103xb.o"
+"led_breathinglight\main.o"
+"led_breathinglight\gpio.o"
+"led_breathinglight\tim.o"
+"led_breathinglight\stm32f1xx_it.o"
+"led_breathinglight\stm32f1xx_hal_msp.o"
+"led_breathinglight\stm32f1xx_hal_gpio_ex.o"
+"led_breathinglight\stm32f1xx_hal_tim.o"
+"led_breathinglight\stm32f1xx_hal_tim_ex.o"
+"led_breathinglight\stm32f1xx_hal.o"
+"led_breathinglight\stm32f1xx_hal_rcc.o"
+"led_breathinglight\stm32f1xx_hal_rcc_ex.o"
+"led_breathinglight\stm32f1xx_hal_gpio.o"
+"led_breathinglight\stm32f1xx_hal_dma.o"
+"led_breathinglight\stm32f1xx_hal_cortex.o"
+"led_breathinglight\stm32f1xx_hal_pwr.o"
+"led_breathinglight\stm32f1xx_hal_flash.o"
+"led_breathinglight\stm32f1xx_hal_flash_ex.o"
+"led_breathinglight\stm32f1xx_hal_exti.o"
+"led_breathinglight\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "LED_BreathingLight\LED_BreathingLight.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "LED_BreathingLight.map" -o LED_BreathingLight\LED_BreathingLight.axf
